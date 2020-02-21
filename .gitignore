@@ -4,3 +4,8 @@ gradle
 gradlew
 gradlew.bat
 build
+bin
+.classpath
+.project
+.settings
+.vscode
