@@ -1,11 +1,12 @@
 package sample.jee.kotlin.resource
 
+import javax.ejb.Stateless
 import javax.ws.rs.GET
 import javax.ws.rs.Path
 
+@Stateless
 @Path("/hello")
-class Hello {
-
+class HelloController {
     @GET
-    fun hello() = "hello!"
+    fun hello() = "hello!!!"
 }
