@@ -26,3 +26,10 @@ Works on Payara server but should work on other jee-compliant servers
 
 - <https://vorozco.com/blog/2019/2019-04-17-Evaluating-Kotlin-caveats-JavaEE.html>
 - <https://kotlinlang.org/docs/reference/compiler-plugins.html#all-open-compiler-plugin>
+
+### datasource-related
+
+- <https://blog.payara.fish/using-postgresql-with-payara-server>
+- <https://ralph.blog.imixs.com/2016/10/22/wildfly-install-postgresql-jdbc-driver-as-a-module/>
+- <https://cleanprogrammer.net/how-to-configure-datasource-in-wildfly/>
+- <http://www.adam-bien.com/roller/abien/entry/installing_oracle_jdbc_driver_on>
