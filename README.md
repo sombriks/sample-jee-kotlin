@@ -33,3 +33,4 @@ Works on Payara server but should work on other jee-compliant servers
 - <https://ralph.blog.imixs.com/2016/10/22/wildfly-install-postgresql-jdbc-driver-as-a-module/>
 - <https://cleanprogrammer.net/how-to-configure-datasource-in-wildfly/>
 - <http://www.adam-bien.com/roller/abien/entry/installing_oracle_jdbc_driver_on>
+- <https://www.stenusys.com/how_to_setup_postgresql_datasource_with_wildfly/> (see 'option 3')

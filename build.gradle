@@ -20,6 +20,9 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     // https://mvnrepository.com/artifact/javax/javaee-api
     providedCompile group: 'javax', name: 'javaee-api', version: '8.0.1'
+    // https://mvnrepository.com/artifact/org.mybatis/mybatis-migrations
+    compile group: 'org.mybatis', name: 'mybatis-migrations', version: '3.3.7'
+
 }
 
 compileKotlin {
