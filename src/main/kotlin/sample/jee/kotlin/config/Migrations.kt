@@ -1,8 +1,6 @@
 package sample.jee.kotlin.config
 
-import org.apache.ibatis.migration.DataSourceConnectionProvider
-import org.apache.ibatis.migration.JavaMigrationLoader
-import org.apache.ibatis.migration.operations.UpOperation
+import org.flywaydb.core.Flyway
 import javax.annotation.PostConstruct
 import javax.annotation.Resource
 import javax.ejb.Startup
@@ -23,11 +21,9 @@ class Migrations {
     @PostConstruct
     fun up() {
         LOG.info("starting migrations subsystem...")
-        UpOperation().operate(
-            DataSourceConnectionProvider(ds),
-            JavaMigrationLoader("sample.jee.kotlin.config.migrations"), null, System.out
-        )
+        val flyway = Flyway.configure().dataSource(ds).load()
+        flyway.baseline()
+        flyway.migrate()
         LOG.info("migrations done!")
-
     }
 }

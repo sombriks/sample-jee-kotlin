@@ -20,8 +20,8 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     // https://mvnrepository.com/artifact/javax/javaee-api
     providedCompile group: 'javax', name: 'javaee-api', version: '8.0.1'
-    // https://mvnrepository.com/artifact/org.mybatis/mybatis-migrations
-    compile group: 'org.mybatis', name: 'mybatis-migrations', version: '3.3.7'
+    // https://mvnrepository.com/artifact/org.flywaydb/flyway-core
+    compile group: 'org.flywaydb', name: 'flyway-core', version: '6.2.4'
 
 }
 
@@ -38,6 +38,7 @@ allOpen {
         "javax.ejb.Singleton",
         "javax.ejb.Stateful",
         "javax.ejb.Stateless",
+        "javax.ejb.Startup",
         "javax.ws.rs.Path"
     )
 }
