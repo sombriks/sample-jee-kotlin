@@ -24,6 +24,9 @@ Works on Payara server but should work on other jee-compliant servers
   - [ ] one for the frontend itself, but maybe not
  - [ ] make it respect profile settings (development, test, production)
  - [ ] prove that it works on any jee8-compatible app server
+    - [X] payara
+    - [ ] wildfly
+    - [ ] wasce
  - [ ] run _devmode_ on other IDE's than intellij ultimate
 
 ## useful links
@@ -49,6 +52,7 @@ Take your reading, and always prefer to use admin tools instead of past random x
 - <https://cleanprogrammer.net/how-to-configure-datasource-in-wildfly/>
 - <http://www.adam-bien.com/roller/abien/entry/installing_oracle_jdbc_driver_on>
 - <https://www.stenusys.com/how_to_setup_postgresql_datasource_with_wildfly/> (see 'option 3')
+- <http://www.mastertheboss.com/jboss-server/jboss-datasource/jboss-datasource-configuration>
 
 #### IBM WebSphere Application Server Community Edition
 
