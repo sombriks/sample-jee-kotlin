@@ -17,8 +17,8 @@ A few goals in order to say "hey this kotlin thing might really works on JEE"
   - [ ] better instructions regarding datasource configurations
     - [X] payara
     - [ ] wildfly
-    - [ ] wasce
-- [X] figure out a decent schema migration [flywaydb](https://flywaydb.org/getstarted/firststeps/api)
+    - [X] wasce
+- [X] figure out a decent schema migration: [flywaydb](https://flywaydb.org/getstarted/firststeps/api)
 - [ ] enable integration tests
 - [ ] modularize the gradle project
   - [ ] a project just for the models
@@ -29,7 +29,7 @@ A few goals in order to say "hey this kotlin thing might really works on JEE"
  - [ ] prove that it works on any jee8-compatible app server
     - [X] payara
     - [X] wildfly
-    - [ ] wasce
+    - [X] wasce
  - [ ] run _devmode_ on other IDE's than intellij ultimate
 
 ## useful links
@@ -71,4 +71,15 @@ How to change the default domain datasource, since there is a bug
 
 #### IBM WebSphere Application Server Community Edition
 
-_to be done_
+Hey i'm old, it's now known as Websphere Application Server Liberty
+
+- <https://developer.ibm.com/wasdev/downloads/#asset/runtimes-wlp-webProfile8>
+
+The download is the web profile version. You need to enable full java EE after unzip it.
+
+- <https://openliberty.io/blog/2018/06/29/full_java_ee_8_liberty_18002.html>
+- <https://openliberty.io/blog/2019/09/13/testing-database-connections-REST-APIs.html>
+- <https://openliberty.io/docs/ref/config/#dataSource.html#dataSource/properties.postgresql>
+
+Please note that default WAS port is **9080** instead of **8080** like their cousins.
+

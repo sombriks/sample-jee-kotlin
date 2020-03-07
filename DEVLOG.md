@@ -2,9 +2,20 @@
 
 Humble rants during development.
 
+## 2020-03-07
+
+Websphere Open Liberty was almost easy as Payara!
+
+It's admin console sucks a lot but the server xml configuration is one single,
+self-contained file and well-documented.
+
+Change from web profile to full javaee mode is also simple to achieve.
+
+Flyway ranted something about a empty file to help him to find migrations folder.
+
 ## 2020-03-06
 
-Finally wildfly accepted the same bare war that glassfish took 
+Finally wildfly accepted the same bare war that glassfish took! 
 
 - Had to set @Produces("application/json") on UserController.kt
 - Had to set @TransactionManagement(value = TransactionManagementType.BEAN)
