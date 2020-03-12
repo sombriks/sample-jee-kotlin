@@ -77,7 +77,7 @@ How to change the default domain datasource, since there is a bug
 
 - <https://openliberty.io/>
 
-The download is the web profile version. You need to enable full java EE after unzip it.
+The download the full jee profile version. 
 
 - <https://openliberty.io/blog/2018/06/29/full_java_ee_8_liberty_18002.html>
 - <https://openliberty.io/blog/2019/09/13/testing-database-connections-REST-APIs.html>
