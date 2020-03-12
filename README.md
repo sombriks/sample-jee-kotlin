@@ -14,22 +14,26 @@ Works on Payara server but should work on other jee-compliant servers
 A few goals in order to say "hey this kotlin thing might really works on JEE" 
 
 - [X] simple hello world-ish features proven to be quite simple
-  - [ ] better instructions regarding datasource configurations
-    - [X] payara
+  - [ ] better instructions regarding jdbc driver and datasource configurations
+    - [ ] payara
     - [ ] wildfly
-    - [X] wasce
+    - [ ] websphere open liberty
 - [X] figure out a decent schema migration: [flywaydb](https://flywaydb.org/getstarted/firststeps/api)
 - [ ] enable integration tests
-- [ ] modularize the gradle project
-  - [ ] a project just for the models
-  - [ ] one or more projects for the services
-  - [ ] one web facade project for the controllers
+- [X] modularize the gradle project
+  - [X] a project just for the models
+  - [X] one or more projects for the services
+  - [X] one web facade project for the controllers
   - [ ] one for the frontend itself, but maybe not
+  - [X] working on most app servers
+     - [X] payara
+     - [X] wildfly
+     - [X] websphere open liberty 
  - [ ] make it respect profile settings (development, test, production)
  - [ ] prove that it works on any jee8-compatible app server
     - [X] payara
     - [X] wildfly
-    - [X] wasce
+    - [X] websphere open liberty
  - [ ] run _devmode_ on other IDE's than intellij ultimate
 
 ## useful links
@@ -69,11 +73,9 @@ How to change the default domain datasource, since there is a bug
 
 - _searching..._
 
-#### IBM WebSphere Application Server Community Edition
+#### IBM Websphere Open Liberty
 
-Hey i'm old, it's now known as Websphere Application Server Liberty
-
-- <https://developer.ibm.com/wasdev/downloads/#asset/runtimes-wlp-webProfile8>
+- <https://openliberty.io/>
 
 The download is the web profile version. You need to enable full java EE after unzip it.
 

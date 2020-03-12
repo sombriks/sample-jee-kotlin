@@ -1,0 +1,10 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.2"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+    <!-- Define persistence unit -->
+    <persistence-unit name="sample-jee-kotlin-pu" transaction-type="JTA">
+        <!-- see README.md on how to configure jdbc driver on each app server -->
+        <jta-data-source>jdbc/sample-ds</jta-data-source>
+        <class>sample.jee.kotlin.model.User</class>
+    </persistence-unit>
+</persistence>

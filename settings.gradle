@@ -1,2 +1,8 @@
-rootProject.name = 'sample-jee-kotlin-payara'
+// here we must include every subproject
+rootProject.name = 'sample-jee-kotlin'
 
+include 'module-base-model'
+include 'module-business-a'
+include 'module-business-b'
+include 'module-business-c'
+include 'module-web'

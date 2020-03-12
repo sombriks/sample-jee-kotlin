@@ -2,6 +2,20 @@
 
 Humble rants during development.
 
+## 2020-03-12
+
+Wow it modularizes with gradle and still works on every biggest JEE App Server.
+
+Neat.
+
+Might add TomEE to the gang.
+
+Still need to add a simplified documentation regarding database driver and
+datasource on every app server.
+
+Noteworthy: since jpa entities lies inside a module (which eventually becomes
+a jar), entity names must be listed on persistence.xml inside META-INF.
+
 ## 2020-03-07
 
 Websphere Open Liberty was almost easy as Payara!
